@@ -14,6 +14,7 @@ public class WebSocketServer {
         Nettosphere server = new Nettosphere.Builder().config(
                 new Config.Builder().host(HOST).port(PORT)
                         .webSocketProtocol(WebSocketHandler.class)
+                        .broadcasterCache(org.atmosphere.cpr.BroadcasterConfig.DefaultBroadcasterCache.class)
                         .build()).build();
         server.start();
         System.out.println(String.format("Servidor empezado en %s:%d", HOST, PORT));

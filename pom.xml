@@ -11,6 +11,12 @@
 			<artifactId>nettosphere</artifactId>
 			<version>1.4.2</version>
 			<classifier>all</classifier>
+			<exclusions>
+				<exclusion>
+					<artifactId>logback-classic</artifactId>
+					<groupId>ch.qos.logback</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.google.code.gson</groupId>

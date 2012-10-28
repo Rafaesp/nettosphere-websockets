@@ -1,18 +1,15 @@
 <applicationConfig>
 
-    <param-name>
-org.atmosphere.useWebSocket
-    </param-name>
-
-    <param-value>
-true
-    </param-value>
-        <param-name>
-org.atmosphere.websocket.WebSocketProtocol
-    </param-name>
-
-    <param-value>
-es.rafaespillaque.atmosphere.websockets.WebSocketHandler
-    </param-value>
+	<param-name>org.atmosphere.useWebSocket</param-name>
+	<param-value>true</param-value>
+	
+	<param-name>org.atmosphere.websocket.WebSocketProtocol</param-name>
+	<param-value>es.rafaespillaque.atmosphere.websockets.WebSocketHandler</param-value>
+	
+	<param-name>org.atmosphere.websocket.WebSocketProtocol</param-name>
+	<param-value>es.rafaespillaque.atmosphere.websockets.WebSocketHandler</param-value>
+	
+	<param-name>org.atmosphere.cpr.broadcasterCacheClass</param-name>
+    <param-value>org.atmosphere.cache.AbstractBroadcasterCache</param-value>
 
 </applicationConfig>
